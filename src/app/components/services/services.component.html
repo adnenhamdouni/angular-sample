@@ -1,0 +1,13 @@
+<p>
+  Reusable code that can be accessed from multiple components! To generate service use 'ng g service data'
+</p>
+
+<h3>My data:</h3>{{ myDataString }}
+
+<h3>My cars:</h3>
+
+<ul>
+  <li *ngFor = "let car of myDataCars">
+    {{ car }}
+  </li>
+</ul>
